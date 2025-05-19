@@ -1,0 +1,22 @@
+Test Cases,TEST CASE ID,Sample Summary
+ Authentication Testing,,
+  Authentication Testing - Email Sign-up,AUTH-001,Verify user can sign up via email successfully.
+  Authentication Testing - Email Verification,AUTH-002,Verify users can verify their email successfully.
+  Authentication Testing - Google Sign-up,AUTH-003,Verify user can sign up via Google successfully.
+  Authentication Testing - Email Log-in,AUTH-004,Verify user can log in with credentials.
+  Authentication Testing - Google Log-in,AUTH-005,Verify user can log in via credentials or Google.
+  Authentication Testing - User Password Reset,AUTH-006,Verify users can reset passwords successfully.
+Job Post Testing,,
+  Job Post - Add,POS-0001,Verify that user can post a job.
+  Job Post - Edit,POS-0002,Verify that user can edit a job post.
+  Job Post - Delete,POS-0003,Verify that user can delete a job post.
+Chat Testing,,
+ Chat - Add Conversation,CHAT-0001,Verify that user can add a conversation.
+ Chat - Send Message,CHAT-0002,Verify that user can send a message.
+ Chat - Receive Live Message,CHAT-0003,Verify that user can receive real time message.
+ Chat - Unread Message Sepator,CHAT-004,Verify that messages that is unread is separate to read message.
+ Job Application Testing,,
+ Job Application -  View a Job Post,APPL-001,Verify that user can view a job post.
+ Job Application - Apply a Job Post,APPL-002,Verify that user can apply a job posted.
+ Job Application - Saved Job for Later,APPL-003,Verify that user can save a job for later.
+ Job Application - Cancel Job Application,APPL-004,Verify that user can cancel a job application.
