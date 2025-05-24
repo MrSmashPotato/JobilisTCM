@@ -1,0 +1,71 @@
+Test Cases,TEST CASE ID,Sample Summary
+Job Post Testing,,
+ Job Post Testing - Create,POS-0001,Verify that user can create  a job post.
+ Job Post Testing - Input-Induced UI Distortion,POS-0002,Verify that input field adjust when keyboard shows up.
+ Job Post Testing - Missing Fields Error,POS-0003,Verify that the user cannot create a job post with missing required fields.
+Manage Job Post Testing,,
+ Manage Job Post Testing - Edit,MANP-0001,Verify that user can edit a job post.
+ Manage Job Post Testing - Delete,MANP-0002,Verify that user can delete a job post.
+Chat Testing,,
+ Chat Testing - Add Conversation,CHAT-0001,Verify that user can add a conversation.
+ Chat Testing - Send Message,CHAT-0002,Verify that user can send a message.
+ Chat Testing - Receive a Message,CHAT-0003,Verify that user can receive a message.
+ Chat Testing - Unread Message Sepator,CHAT-0004,Verify that unread messages are visually separated from read messages.
+Job Search Testing,,
+ Job Search Testing -  View a Job Post,APPL-0001,Verify that user can view a job post.
+ Job Search Testing - Apply a Job Post,APPL-0002,Verify that user can apply a job posted.
+ Job Search Testing - Saved Job for Later,APPL-0003,Verify that user can save a job for later.
+ Job Search Testing - Filter by Skills,APPL-0004,Verify that user can filter by skills.
+ Job Search Testing - Filter by Location,APPL-0005,Verify that user can filter by location.
+ Job Search Testing - Filter by Salary,APPL-0006,Verify that user can filter by salary.
+Job Applicant Testing,,
+ Job Applicant Testing -  View User Job Post,JOBA-0001,Verify that user can view a job post.
+ Job Applicant Testing -  View Job Applicant,JOBA-0002,Verify that user can view applicant per job post.
+ Job Applicant Testing -  Reject Job Applicant,JOBA-0003,Verify that user can reject job applicant.
+ Job Applicant Testing -  Accept Job Applicant,JOBA-0004,Verify that user can accept job applicant.
+Job Applied Testing,,
+ Job Applied Testing -  View Job Applied,APLD-0001,Verify that user can view job applied.
+ Job Applied Testing -  Withdraw Job Applied,APLD-0002,Verify that user can withdraw job application.
+Session Testing,,
+ Session Testing -  Create Session,SESS-0001,Verify that a user session is created after successful login.
+ Session Testing -  Clear Session,SESS-0002,Verify that user is logged out after manually logging out.
+ Session Testing -  Persistent Session,SESS-0003,Verify that user stays log-in if app is close without logging out.
+ Profile Testing,,
+  Profile Testing - Create Profile,PROF-0001,Verify that user can add profile information after signing up.
+  Profile Testing - Edit Profile,PROF-0002,Verify that user can edit profile information.
+ Security Testing,,
+  Authentication Testing,,
+    Authentication Testing - Email Sign-up,AUTH-0001,Verify user can sign up via email successfully.
+    Authentication Testing - Email Verification,AUTH-0002,Verify users can verify their email successfully.
+    Authentication Testing - Google Sign-up,AUTH-0003,Verify user can sign up via Google successfully.
+    Authentication Testing - Email Log-in,AUTH-0004,Verify user can log in with credentials.
+    Authentication Testing - Google Log-in,AUTH-0005,Verify user can log in via credentials or Google.
+    Authentication Testing - User Password Reset,AUTH-0006,Verify users can reset passwords successfully.
+ UI Testing,,
+  User Interface Testing,,
+    Profile testing,UI-0001,"Verify that icons, texts, and other elements are displayed properly."
+    Job Search Testing,UI-0002,"Verify that icons, texts, and other elements are displayed properly."
+    Applied testing,UI-0003,"Verify that icons, texts, and other elements are displayed properly."
+    Messages Testing,UI-0004,"Verify that icons, texts, and other elements are displayed properly."
+  Error Messages,,
+    Error Messages,UI-0005,Verify that specific error messages for different functional areas of the application are displayed correctly when appropriate conditions are met.
+  Usability Testing,,
+    Usability Testing - Mobile Responsiveness,UI-0006,Verify that the app adjusts well on various screen sizes and orientations.
+    Usability Testing - Clear Button Labels & Icons,UI-0007,Verify that all buttons and icons are easily understandable to new users.
+    Usability Testing - Empty State Handling,UI-0008,"Verify that proper messages show when no data is available (e.g., no saved jobs)."
+Connectivity Testing,,
+  Wireless Communication Testing,,
+    2G/3G testing,CON-0001,Verify the app is working on 2G/3G network.
+    4G/LTE testing,CON-0002,Verify the app is working on 4G/LTE network.
+    5G testing,CON-0003,Verify the app is working on 5G network.
+    WiFi 802.11a/b/g/n testing,CON-0004,Verify the app is working using older WiFi network.
+    WiFi 6 testing,CON-0005,Verify the app is working using WiFi 6 network.
+Performance Testing,,
+  Performance Testing - App Launch Benchmark,PERF-0001,Verify that the Jobilis app launches and becomes interactive within acceptable time.
+  Performance Testing - Maximum Job Posts,PERF-0002,Verify that the app can handle creating and viewing thousands of job posts without performance degradation.
+  Performance Testing - 1000 Job Applications,PERF-0003,Verify that the app can process 1000 job applications successively without crashing.
+  Performance Testing - Maximum Registered Users,PERF-0004,Verify that the app can handle the addition and retrieval of a large number of users.
+  Performance Testing - Maximum Conversations/Messages,PERF-0005,Verify that the chat feature remains responsive when sending and receiving many messages.
+  Upgrade/Downgrade Testing,,
+    Upgrade testing,PERF-0009,Verify that the application can upgrade successfully.
+    Downgrade testing,PERF-0010,Verify that the application can downgrade successfully.
